@@ -1,0 +1,106 @@
+/* Reset CSS */
+html, body, header, main, footer {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Lightbox Styles */
+.lb-nav {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.lb-prev, .lb-next {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.lb-dataContainer {
+    padding: 0 10px;
+}
+
+.lb-details {
+    color: #fff;
+}
+
+.lb-caption {
+    color: #ccc;
+}
+
+/* Custom Classes */
+.center-text {
+    text-align: center;
+}
+.btn{
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(83, 102, 163);
+    border-radius: 10px;
+    border: none;
+}
