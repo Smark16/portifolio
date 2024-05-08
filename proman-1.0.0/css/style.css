@@ -13,6 +13,7 @@
     bottom: 45px;
     z-index: 99;
 }
+
 .fluid{
     position: absolute;
     top: 10px;
@@ -447,5 +448,8 @@
         top: 10px;
         right: 30px;
         display: none;
+    }
+    .contc{
+        width: 400px;
     }
 }
